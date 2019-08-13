@@ -157,21 +157,22 @@ button:focus {
       .header_area .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
         color: #fff; }
       .header_area .navbar .nav .nav-item.submenu {
-        position: relative; }
+        position: relative; 
+      }
         .header_area .navbar .nav .nav-item.submenu ul {
           border: none;
           padding: 0px;
           border-radius: 0px;
           box-shadow: none;
-          margin: 0px;
-          background: #fff;
+          margin: 15px;
+          background: rgba(47, 40,32, 0.7);
           box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1); }
           @media (min-width: 992px) {
             .header_area .navbar .nav .nav-item.submenu ul {
               position: absolute;
               top: 120%;
               left: 0px;
-              min-width: 200px;
+              min-width: 120px;
               text-align: left;
               opacity: 0;
               transition: all 300ms ease-in;
@@ -202,7 +203,7 @@ button:focus {
             transition: all 0.4s linear; }
             .header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
               line-height: 45px;
-              color: #222222;
+              color: #fff;
               padding: 0px 30px;
               transition: all 150ms linear;
               display: block;
@@ -247,6 +248,8 @@ button:focus {
 .nav-donate {
   background: #087191;
 }
+
+
 
 .top_menu {
   background: #f9f9ff; }
@@ -2559,9 +2562,9 @@ h6 {
 
 /* End Welcome Area css
 ============================================================================================ */
-/* My Tabs Area css 
+/* Fade Background 
 ============================================================================================ */
-.mytabs_area {
+.ombre_area {
   background-image: -moz-linear-gradient(0deg, #1b720a 0%, #474032 100%);
   background-image: -webkit-linear-gradient(0deg, #1b720a 0%, #474032 100%);
   background-image: -ms-linear-gradient(0deg, #1b720a 0%, #474032 100%); }
